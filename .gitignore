@@ -1,0 +1,6 @@
+# In case somebody uses Eclipse exclude
+# configuration and intermediate class files
+.settings
+.classpath
+.project
+bin/at
