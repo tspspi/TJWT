@@ -21,7 +21,7 @@ classes: dirs
 
 bin/TJWT.jar: classes
 
-	-cvf bin/TJWT.jar -C ./classes .
+	jar -cvf bin/TJWT.jar -C ./classes .
 
 clean:
 
